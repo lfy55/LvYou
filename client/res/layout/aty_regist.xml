@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="注册邮箱："
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码："
+        android:inputType="textPassword" />
+    
+    <EditText 
+        android:id="@+id/rPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="确认密码："
+        android:inputType="textPassword"/>
+    
+    <EditText 
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名：" />
+    
+    <EditText 
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="住址："/>
+    
+    <EditText 
+        android:id="@+id/sex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="性别：男或女"/>
+    
+    <EditText 
+        android:id="@+id/brithday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="生日：格式xxxx-xx-xx"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="注册" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="登录" />
+    </LinearLayout>
+
+</LinearLayout>

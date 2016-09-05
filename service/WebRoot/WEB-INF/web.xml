@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RevertServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.RevertServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendMessage</servlet-name>
+    <servlet-class>com.sqk.servlet.sendMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchNearServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.searchNearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendGPS</servlet-name>
+    <servlet-class>com.sqk.servlet.sendGPS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFollowServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.AddFollowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RemoveFollowServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.RemoveFollowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserList</servlet-name>
+    <servlet-class>com.sqk.servlet.GetUserList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePassServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.ChangePassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendRevert</servlet-name>
+    <servlet-class>com.sqk.servlet.sendRevert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OneMessageServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.OneMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TravelServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.TravelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendComment</servlet-name>
+    <servlet-class>com.sqk.servlet.sendComment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendTravel</servlet-name>
+    <servlet-class>com.sqk.servlet.sendTravel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OneTravelServlet</servlet-name>
+    <servlet-class>com.sqk.servlet.OneTravelServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/servlet/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/servlet/MessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevertServlet</servlet-name>
+    <url-pattern>/servlet/RevertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendMessage</servlet-name>
+    <url-pattern>/servlet/sendMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchNearServlet</servlet-name>
+    <url-pattern>/servlet/searchNearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendGPS</servlet-name>
+    <url-pattern>/servlet/sendGPS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFollowServlet</servlet-name>
+    <url-pattern>/servlet/AddFollowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveFollowServlet</servlet-name>
+    <url-pattern>/servlet/RemoveFollowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserList</servlet-name>
+    <url-pattern>/servlet/GetUserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePassServlet</servlet-name>
+    <url-pattern>/servlet/ChangePassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendRevert</servlet-name>
+    <url-pattern>/servlet/sendRevert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OneMessageServlet</servlet-name>
+    <url-pattern>/servlet/OneMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TravelServlet</servlet-name>
+    <url-pattern>/servlet/TravelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/servlet/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendComment</servlet-name>
+    <url-pattern>/servlet/sendComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendTravel</servlet-name>
+    <url-pattern>/servlet/sendTravel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OneTravelServlet</servlet-name>
+    <url-pattern>/servlet/OneTravelServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

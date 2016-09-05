@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="用户详细信息"
+        android:textSize="24sp"
+        android:textColor="#FF0000" />
+    
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userSex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userBDay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+            android:id="@+id/toOneList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="他的动态" />
+    <Button
+            android:id="@+id/toOneTList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="他的游记" />
+    <Button
+        android:id="@+id/toFansList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="他的粉丝" />
+
+    <Button
+        android:id="@+id/toFollowList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="他的关注" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/addFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="添加关注" />
+
+        <Button
+            android:id="@+id/removeFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消关注" />
+    </LinearLayout>
+
+</LinearLayout>
